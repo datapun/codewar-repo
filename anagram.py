@@ -26,12 +26,12 @@ def anagrams(word, words):
             continue
     print('anagram list',anagram_list)
     return anagram_list
-
+    
 #solution from Codewars:
 #def anagrams(word, words): print([item for item in words if sorted(item)==sorted(word)])
 
 #anagrams('abba', ['aabb', 'abcd', 'bbaa', 'dada']) => ['aabb', 'bbaa']
 
-#anagrams('racer', ['crazer', 'carer', 'racar', 'caers', 'racer']) #=> ['carer', 'racer']
-#anagrams('abab',['a', 'b', 'c', 'd', 'aabb', 'bbaa', 'abab', 'baba', 'baab', 'abcd', 'abbba', 'baaab', 'abbab', 'abbaa', 'babaa'])
-#anagrams('laser', ['lazing', 'lazy',  'lacer']) #=> []
+anagrams('racer', ['crazer', 'carer', 'racar', 'caers', 'racer']) #=> ['carer', 'racer']
+anagrams('abab',['a', 'b', 'c', 'd', 'aabb', 'bbaa', 'abab', 'baba', 'baab', 'abcd', 'abbba', 'baaab', 'abbab', 'abbaa', 'babaa'])
+anagrams('laser', ['lazing', 'lazy',  'lacer']) #=> []

@@ -7,6 +7,7 @@ def cakes(recipe, available):
             multiples.append(0)
     final_number = int(sorted(multiples)[0])
     print(final_number)
+    print(recipe.get('apples',0))
     return final_number
 
 #simplified into one line from Codewars:
